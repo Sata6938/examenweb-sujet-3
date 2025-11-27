@@ -9,9 +9,16 @@ if (titre) {
 }
 
 const titre2 = document.querySelector('#bouton28')
-if (titre) {
-  titre.addEventListener('click', () => {
+if (titre2) {
+  titre2.addEventListener('click', () => {
     open("niveau2.html");
+  });
+}
+
+const titre3 = document.querySelector('#bouton29')
+if (titre3) {
+  titre3.addEventListener('click', () => {
+    open("niveau3.html");
   });
 }
 
