@@ -30,17 +30,17 @@ if (titre4) {
   });
 }
 
-const titre5 = document.querySelector('#bouton29')
+const titre5 = document.querySelector('#bouton30')
 if (titre5) {
   titre5.addEventListener('click', () => {
-    open("niveau3.html");
+    open("1question2.html");
   });
 }
 
-const titre6 = document.querySelector('#bouton29')
+const titre6 = document.querySelector('#bouton32')
 if (titre6) {
   titre6.addEventListener('click', () => {
-    open("niveau3.html");
+    open("1question3.html");
   });
 }
 
@@ -74,3 +74,9 @@ if (titre10) {
 
 
 
+const titre11= document.querySelector('#bouton29')
+if (titre11) {
+  titre11.addEventListener('click', () => {
+    open("niveau3.html");
+  });
+}
