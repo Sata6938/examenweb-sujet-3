@@ -55,7 +55,7 @@ if (titre666) {
 
 
 
-
+//ajouter un bouton permettant d'activer le mode claire ou le mode sombre
 const themeButton = document.querySelector('#bouton50');
 
 themeButton.addEventListener('click', () => {
@@ -70,8 +70,7 @@ themeButton.addEventListener('click', () => {
 
 
 
-
-
+//faire en sorte que les boutons s'allument en vert ou en rouge en fonction de la réponse
 const boutons = document.querySelectorAll('.reponse');
 
 boutons.forEach(bouton => {
@@ -90,12 +89,8 @@ boutons.forEach(bouton => {
 
 
 
-
-
-
-
-
-const nextBtn = document.createElement("button");
+ //Faire en sorte que les boutons affiche un nouveau boutons  menant a la question suivante(oui ce fut long)
+const nextBtn = document.createElement("button");  
 nextBtn.textContent = "Question suivante";
 nextBtn.style.display = "none"; 
 document.body.appendChild(nextBtn);
@@ -241,49 +236,6 @@ if (btn21) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const nextBtn9 = document.createElement("button");
 nextBtn9.textContent = "Question Suivante";
 nextBtn9.style.display = "none"; 
@@ -297,8 +249,6 @@ if (btn4) {
         nextBtn9.style.display = "inline-block";
     });
 }
-
-
 
 
 
