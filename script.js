@@ -44,39 +44,3 @@ if (titre6) {
   });
 }
 
-const titre7 = document.querySelector('#bouton29')
-if (titre7) {
-  titre7.addEventListener('click', () => {
-    open("niveau3.html");
-  });
-}
-
-const titre8 = document.querySelector('#bouton29')
-if (titre8) {
-  titre8.addEventListener('click', () => {
-    open("niveau3.html");
-  });
-}
-
-const titre9 = document.querySelector('#bouton29')
-if (titre9) {
-  titre9.addEventListener('click', () => {
-    open("niveau3.html");
-  });
-}
-
-const titre10 = document.querySelector('#bouton29')
-if (titre10) {
-  titre10.addEventListener('click', () => {
-    open("niveau3.html");
-  });
-}
-
-
-
-const titre11= document.querySelector('#bouton29')
-if (titre11) {
-  titre11.addEventListener('click', () => {
-    open("niveau3.html");
-  });
-}
