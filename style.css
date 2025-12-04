@@ -20,17 +20,17 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 button:hover {
-    background-color: #948c8c; 
+    background-color: #706464; 
 }
 
 
 
 body.mode-claire {
-  background-color: #5cbbae;
+  background-color: #607985;
   color: #ffffff;
 }
 
