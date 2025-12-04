@@ -14,3 +14,40 @@ body {
 }
 
 
+button {
+    background-color: #000000; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #948c8c; 
+}
+
+
+
+body.mode-claire {
+  background-color: #5cbbae;
+  color: #ffffff;
+}
+
+
+body.mode-claire a {
+  color: #e0d5eb;
+}
+
+
+body.mode-sombre {
+  background-color: #535f6b;
+  color: #000000;
+}
+
+
+body.mode-sombre a {
+  color: #2d3b31;
+}
+
+
