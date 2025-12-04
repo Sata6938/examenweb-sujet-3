@@ -13,6 +13,7 @@ body {
     margin: 0;
 }
 
+
 button {
     background-color: #000000; 
     color: white;
@@ -24,4 +25,43 @@ button {
 
 button:hover {
     background-color: #948c8c; 
+}
+
+
+
+body.mode-claire {
+  background-color: #5cbbae;
+  color: #ffffff;
+}
+
+
+body.mode-claire a {
+  color: #e0d5eb;
+}
+
+
+body.mode-sombre {
+  background-color: #535f6b;
+  color: #000000;
+}
+
+
+body.mode-sombre a {
+  color: #2d3b31;
+}
+
+
+
+
+
+
+
+.bonne-reponse {
+    background-color: #4CAF50 !important;
+    color: rgb(0, 0, 0);
+}
+
+.mauvaise-reponse {
+    background-color: #e74c3c !important; 
+    color: rgb(0, 0, 0);
 }
